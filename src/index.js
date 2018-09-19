@@ -13,7 +13,7 @@ class MenuExample extends  React.Component {
         // Обработчик клика обновит состояние
         // изменив индекс на сфокусированный элемент меню
 
-        this.setState({focused: index});
+        this.setState(state=>({focused: index}));
     }
 render()
 {
